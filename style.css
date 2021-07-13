@@ -127,10 +127,12 @@ form label,form legend{
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 0.5s background;
+    transition: 0.5s all;
     cursor: pointer;
 }
 
 .enviar:hover{
     background: darkorange;
+    transform: scale(1.2);
+    
 }
