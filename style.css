@@ -264,3 +264,20 @@ td, th{
 .cinza-video{
     background: #888888;
 }
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .cinza, .beneficios{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+        text-align: center;
+    }
+}
